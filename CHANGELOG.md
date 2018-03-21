@@ -1,5 +1,56 @@
 # Changelog
 
+## v1.4.0
+
+* Add `options` support in `DisabledInput` ([afilp](https://github.com/afilp))
+* Add Slovak translation ([zavadpe](https://github.com/zavadpe))
+* Add a FAQ entry about unique child key in datagrid ([djhi](https://github.com/djhi))
+* Add documentation about `dateInput` and timezones ([alexisjanvier](https://github.com/alexisjanvier))
+* Update example about `addUploadCapabilities` ([alexisjanvier](https://github.com/alexisjanvier))
+* Update extraction of status for `AUTH_ERROR` in the documentation ([zifnab87](https://github.com/zifnab87))
+* Update documentation and examples to use standard es6 ([djhi](https://github.com/djhi))
+* Update `CreateEdit` documentation for `number` validation ([afilp](https://github.com/afilp))
+* Fix validation custom messages so that those without translation don't add warnings ([djhi](https://github.com/djhi))
+* Fix children are filtered when mapping on them ([djhi](https://github.com/djhi))
+* Fix redirection to correct page after `Delete` ([alexisjanvier](https://github.com/alexisjanvier))
+* Fix warnings in React 16 ([djhi](https://github.com/djhi))
+* Fix `Edit` view refresh does not cancel changes ([djhi](https://github.com/djhi))
+* Fix form default values can't be changed once mounted ([djhi](https://github.com/djhi))
+* Fix link color in reference field ([djhi](https://github.com/djhi))
+* Fix and cleanup example app code ([djhi](https://github.com/djhi))
+* Fix default value for filter when source is a path with dot ([djhi](https://github.com/djhi))
+* Fix `WithPermissionsFilteredChildren` should not put regular children in state ([djhi](https://github.com/djhi))
+* Fix `SimpleShowLayout` should handle null children ([afilp](https://github.com/afilp))
+* Fix Handle element cannot be fetched error ([alexisjanvier](https://github.com/alexisjanvier))
+* Fix `List` default pagination to avoid displaying `NaN` ([afilp](https://github.com/afilp))
+* Fix `SelectArrayInput` ([djhi](https://github.com/djhi))
+* Fix `setState` typo in `SelectArrayInput` ([natrim](https://github.com/natrim))
+* Fix example validation ([alauper](https://github.com/alauper))
+* Fix outdated `RefreshButton` usage ([alexisjanvier](https://github.com/alexisjanvier))
+* Fix custom routes handling ([djhi](https://github.com/djhi))
+* Fix typo in example ([clementtalleu](https://github.com/clementtalleu))
+
+## v1.3.4
+
+* Add Croatian translation ([ariskemper](https://github.com/ariskemper))
+* Add Indonesian translation ([ronadi](https://github.com/ronadi))
+* Add Arabic translation ([aymendhaya](https://github.com/aymendhaya))
+* Add Finnish translation ([Joni-Aaltonen](https://github.com/Joni-Aaltonen))
+* Fix spelling of Labeled in documentation ([jyash97](https://github.com/jyash97))
+* Fix documentation for Writing Actions ([danyalaytekin](https://github.com/danyalaytekin))
+* Fix check that window exists before checking for devToolsExtension ([twDuke](https://github.com/twDuke))
+* Fix missing key warning for SaveButton ([MadalenaGoncalves](https://github.com/MadalenaGoncalves))
+* Fix RestClient example in documentation ([alexanderankin](https://github.com/alexanderankin))
+* Fix documentation menu on mobile ([djhi](https://github.com/djhi))
+* Add shadow under doc menu bar on mobile ([djhi](https://github.com/djhi))
+* Fix SelectArrayInput by upgrade material-ui-chip-input ([djhi](https://github.com/djhi))
+* Fix Bottom Toolbars on mobile ([djhi](https://github.com/djhi))
+* Fix documentation, Prop name is validate not validation ([alauper](https://github.com/alauper))
+* Fix AutocompleteInput does not render text for existing value on initial render ([hasghari](https://github.com/hasghari))
+* Fix BooleanInput warning about uncontrolled to controlled component ([djhi](https://github.com/djhi))
+* Fix title is not updated when record changes ([djhi](https://github.com/djhi))
+* Fix vertical scroll issue on page on IE11 ([activist](https://github.com/activist))
+
 ## v1.3.3
 
 * Add `aor-xmysql` to the list of REST clients ([soaserele](https://github.com/soaserele))
